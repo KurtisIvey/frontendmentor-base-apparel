@@ -1,1 +1,23 @@
-/*# sourceMappingURL=PhotoContainer.css.map */
+.photoContainer picture {
+  display: flex;
+  justify-items: center;
+  height: 250px;
+}
+.photoContainer picture img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 700px) {
+  .photoContainer {
+    grid-row: 1/2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .photoContainer picture {
+    height: 100%;
+  }
+  .photoContainer nav {
+    display: none;
+  }
+}/*# sourceMappingURL=PhotoContainer.css.map */

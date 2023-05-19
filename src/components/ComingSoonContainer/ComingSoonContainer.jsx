@@ -1,10 +1,13 @@
 import "./ComingSoonContainer.css";
 import arrow from "../../assets/images/icon-arrow.svg";
-import logo from "../../assets/images/logo.svg";
+import Title from "../Title/Title";
 
 function ComingSoonContainer() {
   return (
     <section className="comingSoonContainer">
+      <nav>
+        <Title />
+      </nav>
       <div className="were">{"WE'RE"}</div>
       <div className="coming">COMING SOON</div>
       <p>
