@@ -1,4 +1,6 @@
 import "./ComingSoonContainer.css";
+import arrow from "../../assets/images/icon-arrow.svg";
+import logo from "../../assets/images/logo.svg";
 
 function ComingSoonContainer() {
   return (
@@ -10,10 +12,18 @@ function ComingSoonContainer() {
         Add your email below to stay up-to-date with announcements and our
         launch deals.`}
       </p>
-      <div>
-        <input placeholder="Email Address" type="email" />
-        <button>{">"}</button>
-      </div>
+      <form className="emailContainer">
+        <label htmlFor="email"></label>
+        <input
+          placeholder="Email Address"
+          type="email"
+          id="email"
+          aria-label="email"
+        />
+        <button type="submit" className="emailButton">
+          <img src={arrow} alt="" />
+        </button>
+      </form>
     </section>
   );
 }
