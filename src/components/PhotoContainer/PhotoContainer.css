@@ -15,7 +15,7 @@
     grid-column-end: 3;
   }
   .photoContainer picture {
-    height: 100%;
+    height: 100vh;
   }
   .photoContainer nav {
     display: none;
