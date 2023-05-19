@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/solution-to-base-apparel-ZMaXLNpXlr)
-- Live Site URL: [Add live site URL here](https://kurtisivey.github.io/frontendmentor-base-apparel/)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/solution-to-base-apparel-ZMaXLNpXlr)
+- Live Site URL: [Github Pages URL](https://kurtisivey.github.io/frontendmentor-base-apparel/)
 
 ## My process
 

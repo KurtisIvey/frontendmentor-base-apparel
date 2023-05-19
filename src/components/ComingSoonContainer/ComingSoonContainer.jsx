@@ -3,6 +3,10 @@ import arrow from "../../assets/images/icon-arrow.svg";
 import Title from "../Title/Title";
 
 function ComingSoonContainer() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <section className="comingSoonContainer">
       <nav>
@@ -15,7 +19,7 @@ function ComingSoonContainer() {
         Add your email below to stay up-to-date with announcements and our
         launch deals.`}
       </p>
-      <form className="emailContainer">
+      <form className="emailContainer" onSubmit={(e) => handleSubmit(e)}>
         <label htmlFor="email"></label>
         <input
           placeholder="Email Address"

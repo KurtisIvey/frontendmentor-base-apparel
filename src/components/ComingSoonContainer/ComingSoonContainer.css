@@ -46,6 +46,7 @@
   border-radius: 32px;
   border: 1px solid hsla(0, 38%, 79%, 0.855);
   position: relative;
+  z-index: 1;
 }
 .comingSoonContainer form input {
   width: 300px;
@@ -63,6 +64,10 @@
 .comingSoonContainer form input:focus {
   outline: none;
 }
+.comingSoonContainer form input:invalid {
+  border: 1px solid red;
+  z-index: 2;
+}
 .comingSoonContainer form button.emailButton {
   position: absolute;
   right: 0;
@@ -76,6 +81,7 @@
   background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border: none;
   border-radius: 32px;
+  z-index: 3;
   cursor: pointer;
 }
 .comingSoonContainer form button.emailButton img {
