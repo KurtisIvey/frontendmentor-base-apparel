@@ -4,12 +4,10 @@ import PhotoContainer from "./components/PhotoContainer/PhotoContainer";
 
 function App() {
   return (
-    <>
-      <main>
-        <PhotoContainer />
-        <ComingSoonContainer />
-      </main>
-    </>
+    <main>
+      <PhotoContainer />
+      <ComingSoonContainer />
+    </main>
   );
 }
 

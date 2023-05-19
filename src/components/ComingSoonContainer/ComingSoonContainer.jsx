@@ -24,7 +24,7 @@ function ComingSoonContainer() {
           aria-label="email"
         />
         <button type="submit" className="emailButton" aria-label="Submit">
-          <img src={arrow} alt="" />
+          <img src={arrow} alt="arrow icon" />
         </button>
       </form>
     </section>
