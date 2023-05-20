@@ -86,6 +86,7 @@ $btnLinear: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
             border-radius: 32px;
             z-index: 3;
             cursor: pointer;
+
             
 
             img {
@@ -94,6 +95,10 @@ $btnLinear: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
                 fill: none;
                 background-color: transparent;
             }
+        }
+        button:hover{
+            box-shadow: 0  2px 35px rgb(229, 185, 232);
+
         }
         
     }
@@ -107,13 +112,15 @@ $btnLinear: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
         grid-column-end: 2;
         max-width: 545px;
         text-align: left;
+        padding: 0;
+        height: 100vh;
         nav{
-            position: absolute;
             display: block;
-            top: 40px;
-            z-index: 3334;
+            padding-top: 35px;
+            
         }
         .were{
+            padding-top: 102px;
             font-size: 4rem;
             letter-spacing: 13px;
         }
@@ -121,6 +128,7 @@ $btnLinear: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
             font-size: 4rem;
             letter-spacing: 13px;
             line-height: 68px;
+            padding-bottom: 10px;
         }
         p{
             max-width: 420px;
