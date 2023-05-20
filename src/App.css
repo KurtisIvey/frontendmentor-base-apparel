@@ -19,7 +19,7 @@ main {
 
 @media screen and (min-width: 700px) {
   main {
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2.9fr 2fr;
     grid-template-rows: 1fr;
   }
 }/*# sourceMappingURL=App.css.map */
