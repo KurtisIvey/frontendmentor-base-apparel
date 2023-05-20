@@ -51,6 +51,23 @@
   position: relative;
   z-index: 1;
 }
+.comingSoonContainer form img.errIcon {
+  height: 23px;
+  background-color: transparent;
+  width: auto;
+  align-self: center;
+  position: absolute;
+  right: 80px;
+  z-index: 22;
+}
+.comingSoonContainer form p {
+  background-color: transparent;
+  position: absolute;
+  top: 55px;
+  left: 23px;
+  font-size: 0.7rem;
+  color: rgb(249, 97, 97);
+}
 .comingSoonContainer form input {
   width: 300px;
   border-radius: 32px;
@@ -67,7 +84,7 @@
 .comingSoonContainer form input:focus {
   outline: none;
 }
-.comingSoonContainer form input:invalid {
+.comingSoonContainer form .errorBorder {
   border: 1px solid red;
   z-index: 2;
 }
@@ -136,6 +153,15 @@
     margin-right: 0;
     margin-left: 0;
     height: 55px;
+  }
+  .comingSoonContainer form img.errIcon {
+    height: 23px;
+    background-color: transparent;
+    width: auto;
+    align-self: center;
+    position: absolute;
+    right: 120px;
+    z-index: 22;
   }
   .comingSoonContainer form input {
     width: 410px;
