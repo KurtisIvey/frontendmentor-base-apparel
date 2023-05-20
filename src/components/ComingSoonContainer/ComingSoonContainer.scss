@@ -10,6 +10,10 @@ $btnLinear: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     align-self: center;
     padding: 60px 20px;
     position: rel;
+
+    h1{
+        display: none;
+    }
     nav{
         display: none;
     }

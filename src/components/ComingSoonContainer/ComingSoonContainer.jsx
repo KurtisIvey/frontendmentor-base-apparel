@@ -9,6 +9,7 @@ function ComingSoonContainer() {
 
   return (
     <section className="comingSoonContainer">
+      <h1 aria-hidden="true">Base Apparel</h1>
       <nav>
         <Title />
       </nav>
